@@ -22,6 +22,7 @@ set keywordprg=:Man
 " Vim Plugins 
 call plug#begin('~/.vim/plugged')
 
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'itchyny/lightline.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'ycm-core/YouCompleteMe'
