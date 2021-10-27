@@ -2,8 +2,6 @@ let mapleader = "\<Space>"
 
 syntax on
 set nocompatible
-set nobackup
-set undodir=~/.vim/undodir
 
 set cursorcolumn
 set cursorline
