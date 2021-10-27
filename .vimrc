@@ -1,8 +1,4 @@
 let mapleader = "\<Space>"
-" create undo dir
-if !isdirectory(&undodir)
-  call mkdir(&undodir, 'p', 0700)
-endif
 
 syntax on
 set nocompatible
@@ -21,8 +17,6 @@ set backspace=indent,eol,start
 " leader keymap 
 nnoremap <leader>b :Tagbar<CR>
 nnoremap <leader>m :NERDTreeToggle<CR>
-nnoremap <leader>[ <C-W>h
-nnoremap <leader>] <C-W>l
 
 source $VIMRUNTIME/ftplugin/man.vim
 set keywordprg=:Man
