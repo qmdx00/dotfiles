@@ -1,0 +1,162 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "gitlens.views.commits.avatars": false,
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.currentLine.format": "${[ author ]-}${[ date ]}${' via 'pullRequest}${-[ message|50? ]}",
+    "editor.fontFamily": "'Fira Code', 'Source Code Pro', monospace, Menlo, Monaco",
+    "editor.fontSize": 13,
+    "editor.minimap.renderCharacters": false,
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "todo",
+            "color": "#FFFF00",
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "fixme",
+            "color": "#FF0000",
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "fix",
+            "color": "#FC03C6",
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "bug",
+            "color": "#5203FC",
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "ugly",
+            "color": "#0000FF",
+            "backgroundColor": "transparent",
+        },
+        {
+            "tag": "hack",
+            "color": "#03EBFC",
+            "backgroundColor": "transparent",
+        },
+        {
+            "tag": "note",
+            "color": "#008000",
+            "backgroundColor": "transparent",
+        },
+        {
+            "tag": "review",
+            "color": "#98C379",
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "debug",
+            "color": "#A52A2A",
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "optimize",
+            "color": "#FF8C00",
+            "backgroundColor": "transparent",
+        },
+        {
+            "tag": "test",
+            "color": "#03FC35",
+            "backgroundColor": "transparent",
+        },
+        {
+            "tag": "deprecated",
+            "color": "#DAECED",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        },
+    ],
+    "vim.useSystemClipboard": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.renderWhitespace": "none",
+    "json.maxItemsComputed": 10000,
+    "go.formatTool": "gofmt",
+    "editor.formatOnSave": true,
+    "settingsSync.ignoredExtensions": [
+        "github.github-vscode-theme",
+        "liviuschera.noctis",
+        "zhuangtongfa.material-theme",
+        "whizkydee.material-palenight-theme",
+        "pkief.material-icon-theme"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.unusualLineTerminators": "off",
+    "terminal.integrated.fontFamily": "'Source Code Pro'",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.wordBasedSuggestionsMode": "currentDocument",
+    "typescript.suggest.completeFunctionCalls": true,
+    "editor.snippetSuggestions": "none",
+    "editor.suggest.insertMode": "replace",
+    "editor.suggest.preview": true,
+    "editor.suggest.showStatusBar": true,
+    "diffEditor.codeLens": true,
+    "problems.decorations.enabled": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.formatOnPaste": true,
+    "files.autoSave": "onWindowChange",
+    "editor.links": false,
+    "debug.confirmOnExit": "always",
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "debug.inlineValues": true,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.onTaskErrors": "showErrors",
+    "debug.openDebug": "openOnSessionStart",
+    "debug.openExplorerOnEnd": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "problems.autoReveal": false,
+    "terminal.integrated.showExitAlert": false,
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "FIX",
+        "BUG",
+        "UGLY",
+        "HACK",
+        "NOTE",
+        "REVIEW",
+        "DEBUG",
+        "OPTIMIZE",
+        "TEST",
+        "DEPRECATED",
+    ],
+    "todo-tree.highlights.enabled": false,
+    "todo-tree.tree.buttons.filter": false,
+    "todo-tree.tree.buttons.expand": false,
+    "todo-tree.tree.buttons.groupBySubTag": true,
+    "todo-tree.filtering.ignoreGitSubmodules": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": true
+    },
+    "todo-tree.general.schemes": [
+        "file",
+        "untitled"
+    ],
+    "todo-tree.highlights.foregroundColourScheme": [],
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.highlights.backgroundColourScheme": [
+        "#FFFF00",
+        "#FF0000",
+        "#FC03C6",
+        "#5203FC",
+        "#0000FF",
+        "#03EBFC",
+        "#008000",
+        "#98C379",
+        "#A52A2A",
+        "#FF8C00",
+        "#03FC35",
+        "#DAECED"
+    ],
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "material-icon-theme.hidesExplorerArrows": false
+}
