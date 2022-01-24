@@ -85,7 +85,8 @@
         "liviuschera.noctis",
         "zhuangtongfa.material-theme",
         "whizkydee.material-palenight-theme",
-        "pkief.material-icon-theme"
+        "pkief.material-icon-theme",
+        "gamedilong.anes"
     ],
     "vsicons.dontShowNewVersionMessage": true,
     "editor.unusualLineTerminators": "off",
@@ -130,7 +131,6 @@
     ],
     "todo-tree.highlights.enabled": false,
     "todo-tree.tree.buttons.filter": false,
-    "todo-tree.tree.buttons.expand": false,
     "todo-tree.tree.buttons.groupBySubTag": true,
     "todo-tree.filtering.ignoreGitSubmodules": true,
     "todo-tree.tree.showCountsInTree": true,
@@ -158,5 +158,14 @@
         "#DAECED"
     ],
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "material-icon-theme.hidesExplorerArrows": false
+    "material-icon-theme.hidesExplorerArrows": false,
+    "powermode.enabled": true,
+    "powermode.enableShake": false,
+    "powermode.enableStatusBarComboCounter": false,
+    "powermode.enableStatusBarComboTimer": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/node_modules": true
+    }
 }
