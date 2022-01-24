@@ -89,12 +89,9 @@
         "gamedilong.anes"
     ],
     "vsicons.dontShowNewVersionMessage": true,
-    "editor.unusualLineTerminators": "off",
     "terminal.integrated.fontFamily": "'Source Code Pro'",
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "editor.wordBasedSuggestionsMode": "currentDocument",
     "typescript.suggest.completeFunctionCalls": true,
-    "editor.snippetSuggestions": "none",
     "editor.suggest.insertMode": "replace",
     "editor.suggest.preview": true,
     "editor.suggest.showStatusBar": true,
@@ -102,8 +99,7 @@
     "problems.decorations.enabled": false,
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "editor.formatOnPaste": true,
-    "files.autoSave": "onWindowChange",
-    "editor.links": false,
+    "files.autoSave": "onFocusChange",
     "debug.confirmOnExit": "always",
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.inlineValues": true,
@@ -167,5 +163,11 @@
     "explorer.confirmDragAndDrop": false,
     "files.exclude": {
         "**/node_modules": true
-    }
+    },
+    "editor.linkedEditing": true,
+    "editor.links": false,
+    "outline.problems.enabled": false,
+    "editor.snippetSuggestions": "bottom",
+    "editor.wordBasedSuggestionsMode": "currentDocument",
+    "files.saveConflictResolution": "overwriteFileOnDisk",
 }
