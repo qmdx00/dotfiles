@@ -3,10 +3,11 @@ ZSH_THEME="crunch"
 HIST_STAMPS="mm/dd/yyyy"
 
 plugins=(
-	git
-	extract
-	colored-man-pages
-	zsh-autosuggestions
+  git
+  extract
+  colored-man-pages
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -15,9 +16,9 @@ export LANG=en_US.UTF-8
 
 # local proxy config
 proxy(){
-  http_proxy="http://127.0.0.1:1087"
-  https_proxy="http://127.0.0.1:1087"
-  all_proxy="socks5://127.0.0.1:1086"
+  export http_proxy="http://127.0.0.1:1087"
+  export https_proxy="http://127.0.0.1:1087"
+  export all_proxy="socks5://127.0.0.1:1086"
   echo "HTTP PROXY ON"
 }
 
