@@ -111,6 +111,7 @@
     "debug.terminal.clearBeforeReusing": true,
     "problems.autoReveal": false,
     "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.macOptionIsMeta": true,
     "todo-tree.general.tags": [
         "TODO",
         "FIXME",
@@ -123,7 +124,7 @@
         "DEBUG",
         "OPTIMIZE",
         "TEST",
-        "DEPRECATED",
+        "DEPRECATED"
     ],
     "todo-tree.highlights.enabled": false,
     "todo-tree.tree.buttons.filter": false,
@@ -169,5 +170,5 @@
     "outline.problems.enabled": false,
     "editor.snippetSuggestions": "bottom",
     "editor.wordBasedSuggestionsMode": "currentDocument",
-    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "files.saveConflictResolution": "overwriteFileOnDisk"
 }
