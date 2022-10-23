@@ -1,5 +1,9 @@
+ENV_FILE=~/.zshrc_env
+
 # import privite env
-source ~/.zshrc_env
+if [ -f ${ENV_FILE} ]; then
+  source ~/.zshrc_env
+fi
 
 # zsh config
 export ZSH="$HOME/.oh-my-zsh"
@@ -37,14 +41,5 @@ export GO111MODULE=on
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # custom alias
-alias vim='nvim'
+# alias vim='nvim'
 
-# nvm config
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
-
-# pyenv config
-eval "$(pyenv init -)"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-export PYENV_ROOT="$HOME/.pyenv"
