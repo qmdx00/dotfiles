@@ -19,9 +19,9 @@ source $ZSH/oh-my-zsh.sh
 
 # local proxy config
 proxy(){
-  http_proxy="http://127.0.0.1:1086"
-  https_proxy="http://127.0.0.1:1086"
-  all_proxy="socks5://127.0.0.1:1086"
+  export http_proxy="http://127.0.0.1:1086"
+  export https_proxy="http://127.0.0.1:1086"
+  export all_proxy="socks5://127.0.0.1:1086"
   echo "PROXY ON"
 }
 noproxy(){
@@ -41,5 +41,5 @@ export GO111MODULE=on
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # custom alias
-# alias vim='nvim'
+alias vim='nvim'
 
