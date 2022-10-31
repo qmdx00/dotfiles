@@ -52,3 +52,6 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 # mysql client
 export PATH="$PATH:/opt/homebrew/opt/mysql-client/bin"
+
+# kubectl suggestion
+source <(kubectl completion zsh)
