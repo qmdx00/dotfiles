@@ -55,3 +55,6 @@ export PATH="$PATH:/opt/homebrew/opt/mysql-client/bin"
 
 # kubectl suggestion
 source <(kubectl completion zsh)
+
+# custom alias
+alias kc=kubectl
