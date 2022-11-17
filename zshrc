@@ -13,6 +13,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="crunch"
 plugins=(
   git
+  sudo
   zsh-autosuggestions
   zsh-syntax-highlighting
   autojump
