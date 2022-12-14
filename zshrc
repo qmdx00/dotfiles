@@ -13,7 +13,6 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="crunch"
 plugins=(
   git
-  sudo
   zsh-autosuggestions
   zsh-syntax-highlighting
   autojump
@@ -59,3 +58,6 @@ source <(kubectl completion zsh)
 
 # custom alias
 alias kc=kubectl
+
+# gpg config
+export GPG_TTY=$(tty)
