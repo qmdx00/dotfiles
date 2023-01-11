@@ -25,7 +25,6 @@ lctrl - 8 : yabai -m space --focus 8
 lctrl - 9 : yabai -m space --focus 9
 
 # Move focus container to workspace
-shift + alt - m : yabai -m window --space last; yabai -m space --focus last
 shift + alt - p : yabai -m window --space prev; yabai -m space --focus prev
 shift + alt - n : yabai -m window --space next; yabai -m space --focus next
 
