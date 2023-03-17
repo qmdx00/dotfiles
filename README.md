@@ -19,9 +19,3 @@ ln -s ~/.config/dotfiles/skhdrc ~/.skhdrc
 ```bash
 ln -s ~/.config/dotfiles/simplebarrc ~/.simplebarrc
 ```
-
-## neovim config
-
-## emacs config
-
-## tmux config
