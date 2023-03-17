@@ -55,9 +55,11 @@ export PATH="$PATH:/opt/homebrew/opt/mysql-client/bin"
 
 # kubectl suggestion
 source <(kubectl completion zsh)
+source <(helm completion zsh)
 
 # custom alias
 alias kc=kubectl
+alias emacs='emacs -nw'
 
 # gpg config
 export GPG_TTY=$(tty)
