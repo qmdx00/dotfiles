@@ -49,6 +49,7 @@ export GOSUMDB="sum.golang.google.cn"
 
 # homebrew config
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+export HOMEBREW_NO_INSTALL_FROM_API=1
 
 # mysql client
 export PATH="$PATH:/opt/homebrew/opt/mysql-client/bin"
