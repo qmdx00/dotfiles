@@ -17,6 +17,7 @@ plugins=(
   zsh-syntax-highlighting
   autojump
   macos
+  git-open
 )
 source $ZSH/oh-my-zsh.sh
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
@@ -26,13 +27,13 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # local proxy config
-proxy(){
+proxy() {
   export http_proxy="http://127.0.0.1:1086"
   export https_proxy="http://127.0.0.1:1086"
   export all_proxy="socks5://127.0.0.1:1086"
   echo "HTTP PROXY ON"
 }
-noproxy(){
+noproxy() {
   unset http_proxy
   unset https_proxy
   unset all_proxy
@@ -50,9 +51,6 @@ export GOSUMDB="sum.golang.google.cn"
 # homebrew config
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export HOMEBREW_NO_INSTALL_FROM_API=1
-
-# mysql client
-export PATH="$PATH:/opt/homebrew/opt/mysql-client/bin"
 
 # kubectl suggestion
 source <(kubectl completion zsh)
