@@ -42,7 +42,8 @@ noproxy() {
 
 # golang config
 export GOPATH="$HOME/go"
-export PATH="$PATH:/usr/local/go/bin"
+export GOROOT="/usr/local/go"
+export PATH="$GOROOT/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
 export GOPROXY=goproxy.cn,direct
 export GO111MODULE=on
@@ -62,3 +63,6 @@ alias emacs='emacs -nw'
 
 # gpg config
 export GPG_TTY=$(tty)
+
+# common lisp roswell
+export PATH=$HOME/.roswell/bin:$PATH
