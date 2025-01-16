@@ -1,0 +1,151 @@
+start-at-login = true
+enable-normalization-flatten-containers = true
+enable-normalization-opposite-orientation-for-nested-containers = true
+default-root-container-orientation = 'auto'
+default-root-container-layout = 'tiles'
+key-mapping.preset = 'qwerty'
+on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
+on-focus-changed = ['move-mouse window-lazy-center']
+
+[gaps]
+inner.horizontal = 15
+inner.vertical =   15
+outer.left =       15
+outer.bottom =     15
+outer.top =        15
+outer.right =      15
+
+# ---------------- workspace 0Temp ------------------
+[[on-window-detected]]
+check-further-callbacks = true
+run = 'move-node-to-workspace 0Temp'
+
+# ---------------- workspace 1Chat ------------------
+[[on-window-detected]]
+if.app-id = 'com.alibaba.DingTalkMac'
+run = 'move-node-to-workspace 1Chat'
+
+[[on-window-detected]]
+if.app-id = 'com.tencent.xinWeChat'
+run = 'move-node-to-workspace 1Chat'
+
+# ---------------- workspace 2Util ------------------
+[[on-window-detected]]
+if.app-id = 'org.keepassxc.keepassxc'
+run = 'move-node-to-workspace 2Util'
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.to-do-mac'
+run = 'move-node-to-workspace 2Util'
+
+[[on-window-detected]]
+if.app-id = 'com.tencent.QQMusicMac'
+run = 'move-node-to-workspace 2Util'
+
+# ---------------- workspace 3Chrome ------------------
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome'
+run = 'move-node-to-workspace 3Chrome'
+
+# ---------------- workspace 4Code ------------------
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = 'move-node-to-workspace 4Code'
+
+# ---------------- workspace 5Note ------------------
+[[on-window-detected]]
+if.app-id = 'notion.id'
+run = 'move-node-to-workspace 5Note'
+
+[[on-window-detected]]
+if.app-id = 'org.b3log.siyuan'
+run = 'move-node-to-workspace 5Note'
+
+# ---------------- workspace 6Work ------------------
+[[on-window-detected]]
+if.app-id = 'com.navicat.NavicatPremium'
+run = 'move-node-to-workspace 6Work'
+
+[[on-window-detected]]
+if.app-id = 'me.qii404.another-redis-desktop-manager'
+run = 'move-node-to-workspace 6Work'
+
+[[on-window-detected]]
+if.app-id = 'cn.apifox.app'
+run = 'move-node-to-workspace 6Work'
+
+[[on-window-detected]]
+if.app-id = 'com.postmanlabs.mac'
+run = 'move-node-to-workspace 6Work'
+
+[[on-window-detected]]
+if.app-id = 'io.github.utilitywarehouse.BloomRPC'
+run = 'move-node-to-workspace 6Work'
+
+# ---------------- workspace 7File ------------------
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = 'move-node-to-workspace 7File'
+
+# ---------------- workspace 8Term ------------------
+[[on-window-detected]]
+if.app-id = 'com.googlecode.iterm2'
+run = 'move-node-to-workspace 8Term'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Terminal'
+run = 'move-node-to-workspace 8Term'
+
+[workspace-to-monitor-force-assignment]
+0Temp = 'secondary'
+1Chat = 'main'
+2Util = 'main'
+3Chrome = 'main'
+4Code = 'main'
+5Note = 'secondary'
+6Work = 'secondary'
+7File = 'secondary'
+8Term = 'secondary'
+
+[mode.main.binding]
+alt-0 = 'workspace 0Temp'
+alt-1 = 'workspace 1Chat'
+alt-2 = 'workspace 2Util'
+alt-3 = 'workspace 3Chrome'
+alt-4 = 'workspace 4Code'
+alt-5 = 'workspace 5Note'
+alt-6 = 'workspace 6Work'
+alt-7 = 'workspace 7File'
+alt-8 = 'workspace 8Term'
+
+alt-shift-0 = ['move-node-to-workspace 0Temp', 'workspace 0Temp']
+alt-shift-1 = ['move-node-to-workspace 1Chat', 'workspace 1Chat']
+alt-shift-2 = ['move-node-to-workspace 2Util', 'workspace 2Util']
+alt-shift-3 = ['move-node-to-workspace 3Chrome', 'workspace 3Chrome']
+alt-shift-4 = ['move-node-to-workspace 4Code', 'workspace 4Code']
+alt-shift-5 = ['move-node-to-workspace 5Note', 'workspace 5Note']
+alt-shift-6 = ['move-node-to-workspace 6Work', 'workspace 6Work']
+alt-shift-7 = ['move-node-to-workspace 7File', 'workspace 7File']
+alt-shift-8 = ['move-node-to-workspace 8Term', 'workspace 8Term']
+
+alt-h = 'focus left'
+alt-j = 'focus down'
+alt-k = 'focus up'
+alt-l = 'focus right'
+
+alt-shift-h = 'move left'
+alt-shift-j = 'move down'
+alt-shift-k = 'move up'
+alt-shift-l = 'move right'
+
+ctrl-alt-h = 'resize width -100'
+ctrl-alt-j = 'resize height -150'
+ctrl-alt-k = 'resize height +150'
+ctrl-alt-l = 'resize width +100'
+
+# alt + shift + r
+alt-shift-r = 'reload-config'
+
+# alt + shift + space
+alt-shift-space = ['layout floating tiling', 'mode main'] # toggle layout floating and tiling
+
