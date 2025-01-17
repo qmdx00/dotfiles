@@ -143,6 +143,12 @@ ctrl-alt-j = 'resize height -150'
 ctrl-alt-k = 'resize height +150'
 ctrl-alt-l = 'resize width +100'
 
+ctrl-alt-n = ['move-node-to-monitor main', 'focus-monitor main']
+ctrl-alt-p = ['move-node-to-monitor secondary', 'focus-monitor secondary']
+
+alt-tab = 'workspace-back-and-forth'
+alt-enter = 'macos-native-fullscreen'
+
 # alt + shift + r
 alt-shift-r = 'reload-config'
 
