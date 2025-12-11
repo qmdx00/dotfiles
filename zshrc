@@ -42,8 +42,6 @@ noproxy() {
 
 # golang config
 export GOPATH="$HOME/go"
-export GOROOT="/usr/local/go"
-export PATH="$GOROOT/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
 export GOPROXY=goproxy.cn,direct
 export GO111MODULE=on
@@ -52,17 +50,11 @@ export GOSUMDB="sum.golang.google.cn"
 # homebrew config
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export HOMEBREW_NO_INSTALL_FROM_API=1
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_ENV_HINTS=1
 
 # kubectl suggestion
 source <(kubectl completion zsh)
 source <(helm completion zsh)
 
-# custom alias
-alias kc=kubectl
-alias emacs='emacs -nw'
 
-# gpg config
-export GPG_TTY=$(tty)
-
-# common lisp roswell
-export PATH=$HOME/.roswell/bin:$PATH
